@@ -1,0 +1,21 @@
+GET http://localhost:3002/hello
+Content-Type: text/plain
+
+pepe
+###
+GET http://localhost:3002/bye
+
+###
+GET http://localhost:3002/products
+
+###
+PUT http://localhost:3002/products
+Content-Type: application/json
+
+{
+  "id":2,
+  "name":"Lattex",
+  "description":"Frothy milky coffeee",
+  "price":2.80,
+  "sku":"abc3234"
+}
